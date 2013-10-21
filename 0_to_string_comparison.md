@@ -1,7 +1,7 @@
 0 to string comparison
 ======================
 
-On compare an integer 0 with a string you'll get `TRUE` if the string doesn't contain `"1"`.
+On compare an integer `0` with a string you'll get `TRUE` if the string isn't `"1"`.
 
 (See PHP documentation of [Loose comparisons with ==](http://php.net/manual/en/types.comparisons.php#types.comparisions-loose))
 
