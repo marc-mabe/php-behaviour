@@ -5,12 +5,12 @@ Class constants will be initialized on first read instead of compile-time.
 
 On defining a class constant linking to another constant you will get the following:
 
- * No notice about an undefined constant on compile time
- * Reading your class constant BEFORE defining the linked constant changes constant value (and triggers a notice)
+ * *No* notice about an undefined constant on compile time
+ * Reading your class constant *before* defining the linked constant changes constant value (and triggers a notice)
 
 Example:
 --------
-(3v4l.org/PPTks)
+(http://3v4l.org/PPTks)
 
 ```php
 // define class constant linking to a not defined constant
