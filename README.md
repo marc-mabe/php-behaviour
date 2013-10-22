@@ -11,3 +11,4 @@ It doesn't mean that's bugs. It only means you should be aware of it.
 * [Automatic type conversion on array keys](automatic_type_conversion_on_array_keys.md)
 * [Late constant binding](late_constant_binding.md)
 * [Reference returning](reference_returning.md)
+* [Callable type-hint not directly callable](callable_typehint_not_directly_callable.md)
