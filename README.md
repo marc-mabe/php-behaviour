@@ -5,6 +5,7 @@ This is a list of some unextecped behaviours on developing in PHP.
 
 It doesn't mean that's bugs. It only means you should be aware of it.
 
+* [Numeric string comparison](numeric_string_comparison.md)
 * [0 to string comparison](0_to_string_comparison.md)
 * [Change boolean constants TRUE/FALSE](change_boolean_constants.md)
 * [Overwriting $this when using references](overwriting_this.md)
