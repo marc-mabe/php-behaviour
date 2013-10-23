@@ -1,9 +1,9 @@
 List of PHP behaviours you don't expect
 =======================================
 
-This is a list of some unextecped behaviours on developing in PHP.
+This is a list of some unexpected behaviours when developing in PHP.
 
-It doesn't mean that's bugs. It only means you should be aware of it.
+It doesn't mean they are bugs. It only means you should be aware of them.
 
 * [Numeric string comparison](numeric_string_comparison.md)
 * [0 to string comparison](0_to_string_comparison.md)
