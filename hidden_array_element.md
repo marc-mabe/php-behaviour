@@ -1,14 +1,30 @@
 Hidden array elements
 =====================
 
+With *hidden array elements* I mean array elements you can't access anymore.
+They will be still displayed using debugging functions like `var_dump`.
+
+Short description
+-----------------
+
+On creating object properties with numeric names and casting such an object into an array
+the numeric object properties are hidden array elements.
+
+Long description
+----------------
+
 In PHP you can cast an object into an array.
 (See http://www.php.net/manual/language.types.array.php#language.types.array.casting)
 > If an object is converted to an array, the result is an array whose elements are the
 > object's properties. The keys are the member variable names.
 
-With the dynamic object property notation you can create properties with numeric names like `123`.
-Now if you cast such an object to an array you can't access such numeric properties because numeric
-array keys wil be converted to integer.
+Normally object propertie names can't be numeric because something like `$obj->123` isn't valid.
+But if you use dynmaic object property notation like `$obj->{123}` it's possible.
+
+Now if you cast such an object into an array the key becomes the numeric property name as a string
+and because numeric array keys will be converted into integers you can't acces such numeric strings.
+
+PS: Object properties will be strings even if you create it as an integer.
 
 Example:
 --------
