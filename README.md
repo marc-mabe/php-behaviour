@@ -13,3 +13,4 @@ It doesn't mean that's bugs. It only means you should be aware of it.
 * [Late constant binding](late_constant_binding.md)
 * [Reference returning](reference_returning.md)
 * [Callable type-hint not directly callable](callable_typehint_not_directly_callable.md)
+* [Hidden array element](hidden_array_element.md)
