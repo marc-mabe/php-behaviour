@@ -1,12 +1,14 @@
 Change boolean constants TRUE/FALSE (within a namespace)
 ========================================================
 
-Example:
---------
-(http://3v4l.org/hq7Jj)
+**NOTE: This has been fixed in PHP-7**
 
 Because TRUE and FALSE are constants of the root namespace
 you can define your own constants within another namespace.
+
+Example:
+--------
+(http://3v4l.org/hq7Jj)
 
 ```php
 namespace Foo;
