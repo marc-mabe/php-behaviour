@@ -5,7 +5,7 @@ TODO: description
 
 Example:
 --------
-(http://3v4l.org/6OPhQ)
+(http://3v4l.org/ndJDo)
 
 ```php
 echo "Compare non numeric string to string 0:        ('str' == '0')                 = " . ('str' == '0' ? 'true' : 'false') . "\n";
@@ -23,6 +23,8 @@ echo "Compare two numeric strings (same semantic 6): ('+0' == '-0')             
 
 echo "Compare two numeric strings (precision 1):     ('0.99999999999999994' == '1') = " . ('0.99999999999999994' == '1' ? 'true' : 'false') . "\n";
 echo "Compare two numeric strings (precision 2):     ('0.99999999999999995' == '1') = " . ('0.99999999999999995' == '1' ? 'true' : 'false') . "\n";
+
+echo "Compare two numeric strings (hex):             ('0x0A' == '10')               = " . ('0x0A' == '10' ? 'true' : 'false') . "\n";
 ```
 
 ```
@@ -38,4 +40,5 @@ Compare two numeric strings (same semantic 5): ('+1' == '1')                  = 
 Compare two numeric strings (same semantic 6): ('+0' == '-0')                 = true
 Compare two numeric strings (precision 1):     ('0.99999999999999994' == '1') = false
 Compare two numeric strings (precision 2):     ('0.99999999999999995' == '1') = true
+Compare two numeric strings (hex):             ('0x0A' == '10')               = true
 ```
