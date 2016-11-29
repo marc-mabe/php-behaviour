@@ -1,6 +1,8 @@
 Callable type-hint not directly callable
 ========================================
 
+**NOTE: This has been fixed in PHP-7**
+
 Arguments marked with the callable type-hint aren't directly callable
 because a string to a static method `"Class::method"` will be interpreted
 as a normal function.
