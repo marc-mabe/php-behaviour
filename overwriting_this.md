@@ -1,6 +1,8 @@
 Overwriting $this when using references
 =======================================
 
+**NOTE: This has been fixed in PHP-7**
+
 It's possible to change the special variable `$this` (used to reference the current object).
 
 Example:
