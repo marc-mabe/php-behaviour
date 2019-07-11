@@ -13,4 +13,4 @@ It doesn't mean they are bugs. It only means you should be aware of them.
 * [Late constant binding](late_constant_binding.md)
 * [Reference returning](reference_returning.md)
 * [Callable type-hint not directly callable](callable_typehint_not_directly_callable.md) (Fixed in PHP-7.0)
-* [Hidden array element](hidden_array_element.md)
+* [Hidden array element](hidden_array_element.md) (Fixed in PHP-7.2)
