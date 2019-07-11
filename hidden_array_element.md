@@ -1,6 +1,8 @@
 Hidden array elements
 =====================
 
+**Note:** This has been fixed in PHP 7.2.0.
+
 With *hidden array elements* I mean array elements you can't access anymore.
 They will be still displayed using debugging functions like `var_dump`.
 
